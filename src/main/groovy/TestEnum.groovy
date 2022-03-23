@@ -1,5 +1,8 @@
 import annotation.API
 
+// If you remove the API annotation, parser will work correctly.
+//But an enumeration must have a specific annotation in our case.
+
 @API
 enum TestEnum implements Serializable {
 	@API
